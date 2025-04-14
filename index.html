@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>우리학교 홈페이지</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: '맑은 고딕', sans-serif;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #2a5d9f;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #1d4e89;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      display: inline-block;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #163d6a;
+    }
+    .main {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .section-title {
+      border-left: 5px solid #2a5d9f;
+      padding-left: 10px;
+      margin-top: 30px;
+      font-size: 1.5em;
+    }
+    .notice-list {
+      list-style: none;
+      padding: 0;
+    }
+    .notice-list li {
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    footer {
+      background-color: #2a5d9f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>우리학교 홈페이지</h1>
+    <p>배움과 나눔의 공간</p>
+  </header>
+
+  <nav>
+    <a href="#">학교소개</a>
+    <a href="#">학사일정</a>
+    <a href="#">공지사항</a>
+    <a href="#">입학안내</a>
+    <a href="#">학생활동</a>
+    <a href="#">오시는 길</a>
+  </nav>
+
+  <div class="main">
+    <section>
+      <h2 class="section-title">학교 소개</h2>
+      <p>우리학교는 1980년에 개교하여 지역사회와 함께 성장해 온 교육기관입니다. 창의적이고 따뜻한 인재 양성을 목표로 합니다.</p>
+    </section>
+
+    <section>
+      <h2 class="section-title">공지사항</h2>
+      <ul class="notice-list">
+        <li><strong>[2025-04-10]</strong> 1학기 중간고사 일정 안내</li>
+        <li><strong>[2025-04-01]</strong> 학교 축제 일정 공지</li>
+        <li><strong>[2025-03-25]</strong> 신입생 오리엔테이션 안내</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 우리학교 | 주소: 서울특별시 교육구 123 | 전화: 02-123-4567</p>
+  </footer>
+
+</body>
+</html>
